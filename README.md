@@ -38,7 +38,7 @@ Install macOS Monterey on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mothe
 
 - firmware 
 
-[version 1402](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z590-a-gaming-wifi-ii-model/helpdesk_bios/)
+[Version 1402](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z590-a-gaming-wifi-ii-model/helpdesk_bios/)
 
 - settings
 
@@ -64,6 +64,8 @@ Boot
     - Launch CSM: Disabled
 ```
 
+disable iGPU : iGPU Multi-Monitor: Disabled
+
 ---
 
 ### EFI 
@@ -73,13 +75,13 @@ Boot
 | Kext                                 | Version| Author                                                                                                             |
 |:------------------------------------:|:------:|:------------------------------------------------------------------------------------------------------------------ |
 | XHCI-unsupported.kext                | 0.9.2  | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-unsupported.kext)  |
-| AirportBrcmFixup.kext                | 2.1.6  | [acidanthera\AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)                           |
-| Lilu.kext                            | 1.6.2  | [acidanthera\Lilu](https://github.com/acidanthera/Lilu/releases)                                                   |
-| RestrictEvents.kext                  | 1.0.8  | [acidanthera\RestrictEvents](https://github.com/acidanthera/RestrictEvents)                                        |
-| SMCProcessor.kext                    | 1.3.0  | [acidanthera\VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
-| SMCSuperIO.kext                      | 1.3.0  | [acidanthera\VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
-| USBInjectAll-ASUS-Z590-A-Gaming.kext | 0.7.8  | [RehabMan\OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)                                    |
-| VirtualSMC.kext                      | 1.3.0  | [acidanthera\VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
+| AirportBrcmFixup.kext                | 2.1.6  | [acidanthera/AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)                           |
+| Lilu.kext                            | 1.6.2  | [acidanthera/Lilu](https://github.com/acidanthera/Lilu/releases)                                                   |
+| RestrictEvents.kext                  | 1.0.8  | [acidanthera/RestrictEvents](https://github.com/acidanthera/RestrictEvents)                                        |
+| SMCProcessor.kext                    | 1.3.0  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
+| SMCSuperIO.kext                      | 1.3.0  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
+| USBInjectAll-ASUS-Z590-A-Gaming.kext | 0.7.8  | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)                                    |
+| VirtualSMC.kext                      | 1.3.0  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
 
 ---
 
