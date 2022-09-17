@@ -206,12 +206,35 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>#PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AwDImw==</data>
+				<data>BwCbPg==</data>
 				<key>device-id</key>
 				<data>yJsAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>@0,name</key>
+				<string>ATY,Henbury</string>
+				<key>@1,name</key>
+				<string>ATY,Henbury</string>
+				<key>@2,name</key>
+				<string>ATY,Henbury</string>
+				<key>@3,name</key>
+				<string>ATY,Henbury</string>
+				<key>AAPL,slot-name</key>
+				<string>Slot-1</string>
+				<key>ATY,DeviceName</key>
+				<string>W6600X</string>
+				<key>ATY,EFIVersion</key>
+				<string>01.01.270</string>
+				<key>ATY,FamilyName</key>
+				<string>Radeon Pro</string>
+				<key>device_type</key>
+				<string>ATY,HenburyParent</string>
+				<key>model</key>
+				<string>AMD Radeon PRO W6600X</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -351,13 +374,31 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBInjectAll-ASUS-Z590-A-Gaming.kext</string>
+				<string>USBInjectAll-DZ.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBInjectAll</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>WhateverGreen.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/WhateverGreen</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -757,7 +798,7 @@
 			<key>CustomPciSerialDevice</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<true/>
+			<false/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
@@ -1030,7 +1071,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 npci=0x2000 watchdog=0  dk.e1000=0 e1000=0</string>
+				<string>keepsyms=1 debug=0x100 npci=0x2000 watchdog=0 agdpmod=pikera dk.e1000=0 e1000=0</string>
 				<key>csr-active-config</key>
 				<data>7w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1099,9 +1140,9 @@
 			<key>ARTFrequency</key>
 			<integer>0</integer>
 			<key>BoardProduct</key>
-			<string>Mac-27AD2F918AE68F61</string>
+			<string>Mac-AF89B6D9451A490B</string>
 			<key>BoardRevision</key>
-			<data>CQ==</data>
+			<data>Aw==</data>
 			<key>DevicePathsSupported</key>
 			<integer>0</integer>
 			<key>FSBFrequency</key>
@@ -1113,17 +1154,17 @@
 			<key>SmcBranch</key>
 			<data></data>
 			<key>SmcPlatform</key>
-			<data>ajE2MAAAAAA=</data>
+			<data>ajE4NWYAAAA=</data>
 			<key>SmcRevision</key>
 			<data></data>
 			<key>StartupPowerEvents</key>
 			<integer>0</integer>
 			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
+			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KZWEZ8P7QM</string>
+			<string>C02DPYZM046M</string>
 			<key>SystemUUID</key>
-			<string>C79FD603-2400-4DD7-998E-975862E90CA8</string>
+			<string>A340C304-67DC-4269-8FD9-D17B4085B53B</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1132,7 +1173,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>F5K952802J9FHDDJC</string>
+			<string>C02046301GU00001H</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1142,11 +1183,11 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
+			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KZWEZ8P7QM</string>
+			<string>C02DPYZM046M</string>
 			<key>SystemUUID</key>
-			<string>C79FD603-2400-4DD7-998E-975862E90CA8</string>
+			<string>A340C304-67DC-4269-8FD9-D17B4085B53B</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1163,45 +1204,45 @@
 			<key>BoardManufacturer</key>
 			<string></string>
 			<key>BoardProduct</key>
-			<string>Mac-27AD2F918AE68F61</string>
+			<string>Mac-AF89B6D9451A490B</string>
 			<key>BoardSerialNumber</key>
-			<string>F5K952802J9FHDDJC</string>
+			<string>C02046301GU00001H</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
-			<string>MacPro7,1</string>
+			<string>iMac20,2</string>
 			<key>ChassisAssetTag</key>
-			<string></string>
+			<string>Asset Tag#</string>
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>F5KZWEZ8P7QM</string>
+			<string>C02DPYZM046M</string>
 			<key>ChassisType</key>
-			<integer>7</integer>
+			<integer>13</integer>
 			<key>ChassisVersion</key>
-			<string>Mac-27AD2F918AE68F61</string>
+			<string>Mac-AF89B6D9451A490B</string>
 			<key>FirmwareFeatures</key>
-			<data>ZvCv/QgAAAA=</data>
+			<data>ZvCz/wgAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>f////wgAAAA=</data>
+			<data>/////wgAAAA=</data>
 			<key>PlatformFeature</key>
-			<integer>0</integer>
+			<integer>32</integer>
 			<key>ProcessorType</key>
-			<integer>3842</integer>
+			<integer>4105</integer>
 			<key>SmcVersion</key>
 			<data></data>
 			<key>SystemFamily</key>
-			<string>MacPro</string>
+			<string>iMac</string>
 			<key>SystemManufacturer</key>
 			<string></string>
 			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
+			<string>iMac20,2</string>
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KZWEZ8P7QM</string>
+			<string>C02DPYZM046M</string>
 			<key>SystemUUID</key>
-			<string>C79FD603-2400-4DD7-998E-975862E90CA8</string>
+			<string>A340C304-67DC-4269-8FD9-D17B4085B53B</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
