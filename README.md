@@ -3,11 +3,14 @@
 
 Install macOS Monterey on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/motherboards/rog-strix/rog-strix-z590-a-gaming-wifi-ii-model/) Mainboard with 10th Gen Intel CPU.
 
+---
 
 ### Information 
 
 - macOS: [Monterey 12.6](https://support.apple.com/en-us/HT212585)
 - bootloader: [OpenCore 0.8.4](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.4)
+
+---
 
 ### Branch
 
