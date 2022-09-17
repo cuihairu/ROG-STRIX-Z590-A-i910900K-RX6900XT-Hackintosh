@@ -9,6 +9,15 @@ Install macOS Monterey on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mothe
 - macOS: [Monterey 12.6](https://support.apple.com/en-us/HT212585)
 - bootloader: [OpenCore 0.8.4](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.4)
 
+### Branch
+
+- main: work with iGPU and eGPU
+
+- iGPU: work only with iGPU
+
+- eGPU: work only with eGPU
+
+---
 
 
 ### Hardware
@@ -22,6 +31,8 @@ Install macOS Monterey on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mothe
 | Graphics     | AMD RX 6600 8G (ASROCk)   | [www.asrock.com](https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%206600%20Challenger%20D%208GB/)                                        |
 | WiFi / BT    | BCM94360CD                | [taobao](https://m.tb.cn/h.UXkgkEk?tk=SmoX2D0F2aq)                                                                                           |
 
+
+---
 
 ### BIOS 
 
@@ -53,6 +64,8 @@ Boot
     - Launch CSM: Disabled
 ```
 
+---
+
 ### EFI 
 
 #### Kexts
@@ -68,6 +81,7 @@ Boot
 | USBInjectAll-ASUS-Z590-A-Gaming.kext | 0.7.8  | [RehabMan\OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)                                    |
 | VirtualSMC.kext                      | 1.3.0  | [acidanthera\VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
 
+---
 
 ### Update macOS
 
