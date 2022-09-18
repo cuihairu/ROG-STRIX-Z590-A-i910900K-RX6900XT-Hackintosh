@@ -53,8 +53,6 @@ Advanced
     - Graphics Configuration
       - iGPU Multi-Monitor: Enabled
       - DVMT Pre-Allocated: 64M
-  - PCH Storage Configuration
-    - SATA6G_(1-4) Hot Plug: Enabled
   - Thunderbolt(TM) Configuration
     - Discrete Thunderbolt(TM) Support: Disabled
   - PCI Subsystem Settings
