@@ -67,7 +67,9 @@ Boot
     - Launch CSM: Disabled
 ```
 
+```
 disable iGPU : iGPU Multi-Monitor: Disabled
+```
 
 ---
 
