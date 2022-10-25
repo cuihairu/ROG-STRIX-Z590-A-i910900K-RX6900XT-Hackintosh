@@ -7,8 +7,8 @@ Install macOS Monterey on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mothe
 
 ### Information 
 
-- macOS: [Monterey 12.6](https://support.apple.com/en-us/HT212585)
-- bootloader: [OpenCore 0.8.4](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.4)
+- macOS: [Ventura](https://www.apple.com/macos/ventura/)
+- bootloader: [OpenCore 0.8.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.5)
 
 ---
 
@@ -85,6 +85,7 @@ disable iGPU : iGPU Multi-Monitor: Disabled
 | SMCSuperIO.kext                      | 1.3.0  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
 | USBInjectAll-ASUS-Z590-A-Gaming.kext | 0.7.8  | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)                                    |
 | VirtualSMC.kext                      | 1.3.0  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
+| AppleIntelI210Ethernet.kext          | 2.3.1  |                                                                                                                    |
 
 ---
 
