@@ -1243,7 +1243,7 @@
 			<key>SystemSerialNumber</key>
 			<string>F5KZWEZ8P7QM</string>
 			<key>SystemUUID</key>
-			<string>C79FD603-2400-4DD7-998E-975862E90CA8</string>
+			<string>3168312C-CB15-41D2-B501-3C7764B13288</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1266,7 +1266,7 @@
 			<key>SystemSerialNumber</key>
 			<string>F5KZWEZ8P7QM</string>
 			<key>SystemUUID</key>
-			<string>C79FD603-2400-4DD7-998E-975862E90CA8</string>
+			<string>3168312C-CB15-41D2-B501-3C7764B13288</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1321,7 +1321,7 @@
 			<key>SystemSerialNumber</key>
 			<string>F5KZWEZ8P7QM</string>
 			<key>SystemUUID</key>
-			<string>C79FD603-2400-4DD7-998E-975862E90CA8</string>
+			<string>3168312C-CB15-41D2-B501-3C7764B13288</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1365,6 +1365,12 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>PointerDwellClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellDoubleClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellRadius</key>
+			<integer>0</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
 			<key>PointerPollMin</key>
@@ -1415,6 +1421,18 @@
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
+				<string>ext4_x64.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
 				<string>HfsPlus.efi</string>
 			</dict>
 			<dict>
@@ -1428,6 +1446,18 @@
 				<false/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>OpenLinuxBoot.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
