@@ -9,7 +9,7 @@ Install macOS Ventura on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mother
 ### Information 
 
 - macOS: [Ventura](https://www.apple.com/macos/ventura/)
-- bootloader: [OpenCore 0.8.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.8)
+- bootloader: [OpenCore 0.9.0](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.0)
 
 ---
 
@@ -80,13 +80,14 @@ disable iGPU : iGPU Multi-Monitor: Disabled
 |:------------------------------------:|:------:|:------------------------------------------------------------------------------------------------------------------ |
 | XHCI-unsupported.kext                | 0.9.2  | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-unsupported.kext)  |
 | AirportBrcmFixup.kext                | 2.1.6  | [acidanthera/AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)                           |
-| Lilu.kext                            | 1.6.2  | [acidanthera/Lilu](https://github.com/acidanthera/Lilu/releases)                                                   |
-| RestrictEvents.kext                  | 1.0.8  | [acidanthera/RestrictEvents](https://github.com/acidanthera/RestrictEvents)                                        |
-| SMCProcessor.kext                    | 1.3.0  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
-| SMCSuperIO.kext                      | 1.3.0  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
+| Lilu.kext                            | 1.6.4  | [acidanthera/Lilu](https://github.com/acidanthera/Lilu/releases)                                                   |
+| RestrictEvents.kext                  | 1.0.9  | [acidanthera/RestrictEvents](https://github.com/acidanthera/RestrictEvents)                                        |
+| SMCProcessor.kext                    | 1.3.1  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
+| SMCSuperIO.kext                      | 1.3.1  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
 | USBInjectAll-ASUS-Z590-A-Gaming.kext | 0.7.8  | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)                                    |
-| VirtualSMC.kext                      | 1.3.0  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
+| VirtualSMC.kext                      | 1.3.1  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
 | AppleIntelI210Ethernet.kext          | 2.3.1  |                                                                                                                    |
+| FeatureUnlock.kext                   | 1.1.3  | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock/releases)                                                                                        |
 
 ---
 
