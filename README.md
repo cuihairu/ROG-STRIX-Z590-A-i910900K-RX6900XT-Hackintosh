@@ -87,6 +87,7 @@ disable iGPU : iGPU Multi-Monitor: Disabled
 | USBInjectAll-ASUS-Z590-A-Gaming.kext | 0.7.8  | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)                                    |
 | VirtualSMC.kext                      | 1.3.1  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
 | AppleIntelI210Ethernet.kext          | 2.3.1  |                                                                                                                    |
+| AppleIGC                             | 1.0.0  | [SongXiaoXi/AppleIGC](https://github.com/SongXiaoXi/AppleIGC)                                                      |
 | FeatureUnlock.kext                   | 1.1.3  | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock/releases)                                                                                        |
 
 ---
