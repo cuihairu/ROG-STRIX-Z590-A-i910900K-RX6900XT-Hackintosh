@@ -89,6 +89,9 @@ disable iGPU : iGPU Multi-Monitor: Disabled
 | AppleIntelI210Ethernet.kext          | 2.3.1  |                                                                                                                    |
 | AppleIGC                             | 1.0.0  | [SongXiaoXi/AppleIGC](https://github.com/SongXiaoXi/AppleIGC)                                                      |
 | FeatureUnlock.kext                   | 1.1.3  | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock/releases)                                                                                        |
+| itlwm.kext                           | v2.2.0-alpha  | [OpenIntelWireless/itlwm](https://github.com/OpenIntelWireless/itlwm/releases)                                                                                        |
+
+[intel ax201 ](https://github.com/OpenIntelWireless/HeliPort/releases)
 
 ---
 
