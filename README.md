@@ -74,6 +74,26 @@ disable iGPU : iGPU Multi-Monitor: Disabled
 
 ### EFI 
 
+#### Config
+
+11 Gen CPU
+
+```xml
+<key>Emulate</key>
+<dict>
+  <key>Cpuid1Data</key>
+  <data>6wYJAAAAAAAAAAAAAAAAAA==</data>
+  <key>Cpuid1Mask</key>
+  <data>/////wAAAAAAAAAAAAAAAA==</data>
+  <key>DummyPowerManagement</key>
+  <false/>
+  <key>MaxKernel</key>
+  <string></string>
+  <key>MinKernel</key>
+  <string></string>
+</dict>
+```
+
 #### Kexts
 
 | Kext                                 | Version| Author                                                                                                             |
