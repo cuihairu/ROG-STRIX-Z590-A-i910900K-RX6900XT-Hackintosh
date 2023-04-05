@@ -1317,7 +1317,7 @@
 			<key>SystemSerialNumber</key>
 			<string>F5KZWEZ8P7QM</string>
 			<key>SystemUUID</key>
-			<string>3168312C-CB15-41D2-B501-3C7764B13288</string>
+			<string>E35E3FA6-4082-48F1-804E-2E415DFB095C</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1340,7 +1340,7 @@
 			<key>SystemSerialNumber</key>
 			<string>F5KZWEZ8P7QM</string>
 			<key>SystemUUID</key>
-			<string>3168312C-CB15-41D2-B501-3C7764B13288</string>
+			<string>E35E3FA6-4082-48F1-804E-2E415DFB095C</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1395,7 +1395,7 @@
 			<key>SystemSerialNumber</key>
 			<string>F5KZWEZ8P7QM</string>
 			<key>SystemUUID</key>
-			<string>3168312C-CB15-41D2-B501-3C7764B13288</string>
+			<string>E35E3FA6-4082-48F1-804E-2E415DFB095C</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1675,6 +1675,8 @@
 			<true/>
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
+			<key>ResizeUsePciRbIo</key>
+			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
