@@ -1066,6 +1066,8 @@
 		<dict>
 			<key>AllowSetDefault</key>
 			<true/>
+			<key>BlacklistAppleUpdate</key>
+			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -1647,7 +1649,7 @@
 			<key>OSInfo</key>
 			<false/>
 			<key>PciIo</key>
-			<false/>
+			<true/>
 			<key>UnicodeCollation</key>
 			<false/>
 		</dict>
