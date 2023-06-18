@@ -89,17 +89,17 @@ disable iGPU : iGPU Multi-Monitor: Disabled
 | Kext                                 | Version| Author                                                                                                             |
 |:------------------------------------:|:------:|:------------------------------------------------------------------------------------------------------------------ |
 | XHCI-unsupported.kext                | 0.9.2  | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-unsupported.kext)  |
-| AirportBrcmFixup.kext                | 2.1.6  | [acidanthera/AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)                           |
-| Lilu.kext                            | 1.6.4  | [acidanthera/Lilu](https://github.com/acidanthera/Lilu/releases)                                                   |
-| RestrictEvents.kext                  | 1.0.9  | [acidanthera/RestrictEvents](https://github.com/acidanthera/RestrictEvents)                                        |
-| SMCProcessor.kext                    | 1.3.1  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
-| SMCSuperIO.kext                      | 1.3.1  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
+| AirportBrcmFixup.kext                | 2.1.7  | [acidanthera/AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)                           |
+| Lilu.kext                            | 1.6.6  | [acidanthera/Lilu](https://github.com/acidanthera/Lilu/releases)                                                   |
+| RestrictEvents.kext                  | 1.1.2  | [acidanthera/RestrictEvents](https://github.com/acidanthera/RestrictEvents)                                        |
+| SMCProcessor.kext                    | 1.3.2  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
+| SMCSuperIO.kext                      | 1.3.2  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
 | USBInjectAll-ASUS-Z590-A-Gaming.kext | 0.7.8  | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)                                    |
-| VirtualSMC.kext                      | 1.3.1  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
+| VirtualSMC.kext                      | 1.3.2  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
 | AppleIntelI210Ethernet.kext          | 2.3.1  |                                                                                                                    |
-| AppleIGC                             | 1.0.0  | [SongXiaoXi/AppleIGC](https://github.com/SongXiaoXi/AppleIGC)                                                      |
-| FeatureUnlock.kext                   | 1.1.3  | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock/releases)                                                                                        |
-| itlwm.kext                           | v2.2.0-alpha  | [OpenIntelWireless/itlwm](https://github.com/OpenIntelWireless/itlwm/releases)                                                                                        |
+| AppleIGC                             | 1.3.0  | [SongXiaoXi/AppleIGC](https://github.com/SongXiaoXi/AppleIGC)                                                      |
+| FeatureUnlock.kext                   | 1.1.5  | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock/releases)                                                                                        |
+| itlwm.kext                           | v2.2.0 stable  | [OpenIntelWireless/itlwm](https://github.com/OpenIntelWireless/itlwm/releases)                                                                                        |
 
 [intel ax201 ](https://github.com/OpenIntelWireless/HeliPort/releases)
 
