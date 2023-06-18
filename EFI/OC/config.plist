@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>#WARNING - 1</key>
+	<string>This is just a sample. Do NOT try loading it.</string>
+	<key>#WARNING - 2</key>
+	<string>Ensure you understand EVERY field before booting.</string>
+	<key>#WARNING - 3</key>
+	<string>In most cases recommended to use Sample.plist</string>
+	<key>#WARNING - 4</key>
+	<string>Use SampleCustom.plist only for special cases.leo</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -139,7 +147,7 @@
 			<key>ResetHwSig</key>
 			<false/>
 			<key>ResetLogoStatus</key>
-			<false/>
+			<true/>
 			<key>SyncTableIds</key>
 			<false/>
 		</dict>
@@ -929,7 +937,7 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmCfgLock</key>
 			<true/>
 			<key>AppleXcpmExtraMsrs</key>
@@ -942,10 +950,10 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
-			<key>DisableLinkeditJettison</key>
-			<true/>
 			<key>DisableIoMapperMapping</key>
 			<false/>
+			<key>DisableLinkeditJettison</key>
+			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
 			<key>ExtendBTFeatureFlags</key>
@@ -1066,12 +1074,12 @@
 		<dict>
 			<key>AllowSetDefault</key>
 			<true/>
-			<key>BlacklistAppleUpdate</key>
-			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
 			<false/>
+			<key>BlacklistAppleUpdate</key>
+			<true/>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>EnablePassword</key>
@@ -1199,13 +1207,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-			<dict>
-				<key>DefaultBackgroundColor</key>
-				<data>AAAAAA==</data>
-				<key>UIScale</key>
-				<data>AQ==</data>
-			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
 				<key>rtc-blacklist</key>
@@ -1218,7 +1219,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 npci=0x2000 watchdog=0  -lilubetaall</string>
+				<string>keepsyms=1 debug=0x100 npci=0x2000 watchdog=0  -lilubetaall</string>
 				<key>csr-active-config</key>
 				<data>7w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1243,8 +1244,6 @@
 				<string>ForceDisplayRotationInEFI</string>
 			</array>
 		</dict>
-		<key>LegacyEnable</key>
-		<false/>
 		<key>LegacyOverwrite</key>
 		<false/>
 		<key>WriteFlash</key>
@@ -1313,7 +1312,7 @@
 			<key>SystemSerialNumber</key>
 			<string>F5KZWEZ8P7QM</string>
 			<key>SystemUUID</key>
-			<string>E35E3FA6-4082-48F1-804E-2E415DFB095C</string>
+			<string>3168312C-CB15-41D2-B501-3C7764B13288</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1336,7 +1335,7 @@
 			<key>SystemSerialNumber</key>
 			<string>F5KZWEZ8P7QM</string>
 			<key>SystemUUID</key>
-			<string>E35E3FA6-4082-48F1-804E-2E415DFB095C</string>
+			<string>3168312C-CB15-41D2-B501-3C7764B13288</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1391,7 +1390,7 @@
 			<key>SystemSerialNumber</key>
 			<string>F5KZWEZ8P7QM</string>
 			<key>SystemUUID</key>
-			<string>E35E3FA6-4082-48F1-804E-2E415DFB095C</string>
+			<string>3168312C-CB15-41D2-B501-3C7764B13288</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1419,9 +1418,9 @@
 			<key>JumpstartHotPlug</key>
 			<false/>
 			<key>MinDate</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>MinVersion</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 		</dict>
 		<key>AppleInput</key>
 		<dict>
@@ -1649,7 +1648,7 @@
 			<key>OSInfo</key>
 			<false/>
 			<key>PciIo</key>
-			<true/>
+			<false/>
 			<key>UnicodeCollation</key>
 			<false/>
 		</dict>
