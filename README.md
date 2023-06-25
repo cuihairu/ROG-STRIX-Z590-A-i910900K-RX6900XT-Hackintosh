@@ -22,7 +22,7 @@ Install macOS Ventura on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mother
 | Processor    | Intel Core i9 10900K      | [ark.intel.com](https://ark.intel.com/content/www/us/en/ark/products/199332/intel-core-i910900k-processor-20m-cache-up-to-5-30-ghz.html)     |
 | DDR4 RAM     | Corsair 128GB   | [www.corsair.com](https://www.corsair.com/ja/zh/%E7%B1%BB%E5%88%AB/%E4%BA%A7%E5%93%81/%E5%86%85%E5%AD%98/VENGEANCE-LPX/p/CMK128GX4M4A2666C16)|
 | NVMe SSD     | Kingston 1TB              | [www.kingston.com](https://www.kingston.com.cn/en/ssd/dc1000b-data-center-boot-ssd)                                                          |
-| Graphics     | AMD Radeon RX 6600 8G (ASROCk)/AMD Radeon RX 6900xt   | [www.asrock.com](https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%206600%20Challenger%20D%208GB/)                                        |
+| Graphics     | AMD Radeon RX 6600 8G (ASROCk)/AMD Radeon RX 6900xt   | [www.asrock.com](https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%206600%20Challenger%20D%208GB/)/[www.amd.com](https://www.amd.com/en/products/graphics/amd-radeon-rx-6900-xt)                                        |
 | WiFi / BT    | BCM94360CD                |                                                                                            |
 
 
