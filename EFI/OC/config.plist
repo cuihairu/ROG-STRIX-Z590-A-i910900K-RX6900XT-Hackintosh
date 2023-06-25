@@ -1057,15 +1057,15 @@
 				<key>Auxiliary</key>
 				<false/>
 				<key>Comment</key>
-				<string>Not signed for security reasons</string>
+				<string>Windows11</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Flavour</key>
-				<string>Auto</string>
+				<string>Windows11:Windows</string>
 				<key>Name</key>
-				<string>CustomOS</string>
+				<string>Win11</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
+				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,D5-71-81-51-68-B7-26-00)/HD(1,GPT,B05B74E5-77E7-4B95-8110-0B166E6CB987,0x800,0x32000)/\EFI\BOOT\BOOTX64.EFI</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -1143,7 +1143,7 @@
 				<key>Comment</key>
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Flavour</key>
 				<string>OpenShell:UEFIShell:Shell</string>
 				<key>FullNvramAccess</key>
