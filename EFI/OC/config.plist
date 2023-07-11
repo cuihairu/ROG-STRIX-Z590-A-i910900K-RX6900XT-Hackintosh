@@ -1101,7 +1101,7 @@
 				<key>Name</key>
 				<string>Win11</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,D5-71-81-51-68-B7-26-00)/HD(1,GPT,B05B74E5-77E7-4B95-8110-0B166E6CB987,0x800,0x32000)/\EFI\BOOT\BOOTX64.EFI</string>
+				<string>PciRoot(0x0)/Pci(0x1B,0x4)/Pci(0x0,0x0)/NVMe(0x1,65-CC-8B-50-68-B7-26-00)/HD(1,GPT,5A674090-1C12-47F6-9433-901880C05850,0x800,0x32000)/\EFI\BOOT\BOOTX64.EFI</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
