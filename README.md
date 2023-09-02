@@ -92,12 +92,13 @@ disable iGPU : iGPU Multi-Monitor: Disabled
 | AirportBrcmFixup.kext                | 2.1.7  | [acidanthera/AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)                           |
 | Lilu.kext                            | 1.6.7  | [acidanthera/Lilu](https://github.com/acidanthera/Lilu/releases)                                                   |
 | RestrictEvents.kext                  | 1.1.2  | [acidanthera/RestrictEvents](https://github.com/acidanthera/RestrictEvents)                                        |
+| NVMeFix.kext                         | 1.1.1  | [acidanthera/NVMeFix](https://github.com/acidanthera/NVMeFix)                                                      |
 | SMCProcessor.kext                    | 1.3.2  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
 | SMCSuperIO.kext                      | 1.3.2  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
 | USBInjectAll-ASUS-Z590-A-Gaming.kext | 0.7.8  | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)                                    |
 | VirtualSMC.kext                      | 1.3.2  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
 | AppleIntelI210Ethernet.kext          | 2.3.1  |                                                                                                                    |
-| AppleIGC                             | 1.3.0  | [SongXiaoXi/AppleIGC](https://github.com/SongXiaoXi/AppleIGC)                                                      |
+| AppleIGC                             | 1.4.0  | [SongXiaoXi/AppleIGC](https://github.com/SongXiaoXi/AppleIGC)                                                      |
 | FeatureUnlock.kext                   | 1.1.5  | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock/releases)                                                                                        |
 | itlwm.kext                           | v2.3.0-alpha  | [OpenIntelWireless/itlwm](https://github.com/OpenIntelWireless/itlwm/releases)                                                                                        |
 
