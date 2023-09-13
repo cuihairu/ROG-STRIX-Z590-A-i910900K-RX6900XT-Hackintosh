@@ -9,7 +9,7 @@ Install macOS Ventura on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mother
 ### Information 
 
 - macOS: [Ventura](https://www.apple.com/macos/ventura/)
-- bootloader: [OpenCore 0.9.4](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.4)
+- bootloader: [OpenCore 0.9.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.5)
 
 ---
 
