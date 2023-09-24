@@ -96,15 +96,15 @@ disable iGPU : iGPU Multi-Monitor: Disabled
 | RadeonSensor.kext                    | v0.3.3       | [aluveitie/RadeonSensor](https://github.com/aluveitie/RadeonSensor/releases)                                       |
 | SMCRadeonGPU.kext                    | v0.3.3       | [aluveitie/RadeonSensor](https://github.com/aluveitie/RadeonSensor/releases)                                       |
 | RestrictEvents.kext                  | v1.1.2       | [acidanthera/RestrictEvents](https://github.com/acidanthera/RestrictEvents)                                        |
-| NVMeFix.kext                         | v1.1.1       | [acidanthera/NVMeFix](https://github.com/acidanthera/NVMeFix)                                                      |
-| USBInjectAll-ASUS-Z590-A-Gaming.kext | v0.7.8       | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)                                    |                                                             
+| NVMeFix.kext                         | v1.1.1       | [acidanthera/NVMeFix](https://github.com/acidanthera/NVMeFix)                                                      |                                                           
 | AppleIGC                             | v1.4.0       | [SongXiaoXi/AppleIGC](https://github.com/SongXiaoXi/AppleIGC)                                                      |
-| BlueToolFixup.kext                   | v2.6.8       | [acidanthera/BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases)                                   |
 | AirpotItlwm.kext                     | v2.3.0-alpha | [OpenIntelWireless/itlwm](https://github.com/OpenIntelWireless/itlwm/releases)                                     |
 | IntelBluetootchFirmware.kext         | v2.3.0       | [OpenIntelWireless/IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)   |
 | IntelBTPatcher.kext                  | v2.6.8       | [acidanthera/BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases)                                   |
 | BlueToolFixup.kext                   | v2.6.8       | [acidanthera/BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases)                                   |
 | FeatureUnlock.kext                   | v1.1.5       | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock/releases)                                 |
+| USBToolBox.kext                      | v1.1.1       | [USBToolBox/kext](https://github.com/USBToolBox/kext/releases)                                                     |
+| UTBMap.kext                          | v1.1.1       | [USBToolBox/kext](https://github.com/USBToolBox/tool)                                                              |     
  
 ---
 
