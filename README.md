@@ -104,7 +104,7 @@ disable iGPU : iGPU Multi-Monitor: Disabled
 | BlueToolFixup.kext                   | v2.6.8       | [acidanthera/BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases)                                   |
 | FeatureUnlock.kext                   | v1.1.5       | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock/releases)                                 |
 | USBToolBox.kext                      | v1.1.1       | [USBToolBox/kext](https://github.com/USBToolBox/kext/releases)                                                     |
-| UTBMap.kext                          | v1.1.1       | [USBToolBox/kext](https://github.com/USBToolBox/tool)                                                              |     
+| UTBMap.kext                          | v1.1.1       | [USBToolBox/tool](https://github.com/USBToolBox/tool)                                                              |     
  
 ---
 
