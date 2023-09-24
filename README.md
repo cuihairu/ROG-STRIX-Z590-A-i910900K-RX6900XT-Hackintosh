@@ -23,7 +23,7 @@ Install macOS Ventura on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mother
 | DDR4 RAM     | Corsair 128GB   | [www.corsair.com](https://www.corsair.com/ja/zh/%E7%B1%BB%E5%88%AB/%E4%BA%A7%E5%93%81/%E5%86%85%E5%AD%98/VENGEANCE-LPX/p/CMK128GX4M4A2666C16)|
 | NVMe SSD     | Kingston 1TB              | [www.kingston.com](https://www.kingston.com.cn/en/ssd/dc1000b-data-center-boot-ssd)                                                          |
 | Graphics     | AMD Radeon RX 6600 8G (ASROCk)/AMD Radeon RX 6900xt   | [www.asrock.com](https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%206600%20Challenger%20D%208GB/)/[www.amd.com](https://www.amd.com/en/products/graphics/amd-radeon-rx-6900-xt)                                        |
-| WiFi / BT    | BCM94360CD                |                                                                                            |
+| WiFi / BT    | AX201                    |                                                                                            |
 
 
 ---
@@ -86,23 +86,23 @@ disable iGPU : iGPU Multi-Monitor: Disabled
 
 #### Kexts
 
-| Kext                                 | Version| Author                                                                                                             |
-|:------------------------------------:|:------:|:------------------------------------------------------------------------------------------------------------------ |
-| XHCI-unsupported.kext                | 0.9.2  | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-unsupported.kext)  |
-| AirportBrcmFixup.kext                | 2.1.7  | [acidanthera/AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)                           |
-| Lilu.kext                            | 1.6.7  | [acidanthera/Lilu](https://github.com/acidanthera/Lilu/releases)                                                   |
-| RestrictEvents.kext                  | 1.1.2  | [acidanthera/RestrictEvents](https://github.com/acidanthera/RestrictEvents)                                        |
-| NVMeFix.kext                         | 1.1.1  | [acidanthera/NVMeFix](https://github.com/acidanthera/NVMeFix)                                                      |
-| SMCProcessor.kext                    | 1.3.2  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
-| SMCSuperIO.kext                      | 1.3.2  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
-| USBInjectAll-ASUS-Z590-A-Gaming.kext | 0.7.8  | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)                                    |
-| VirtualSMC.kext                      | 1.3.2  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
-| AppleIntelI210Ethernet.kext          | 2.3.1  |                                                                                                                    |
-| AppleIGC                             | 1.4.0  | [SongXiaoXi/AppleIGC](https://github.com/SongXiaoXi/AppleIGC)                                                      |
-| FeatureUnlock.kext                   | 1.1.5  | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock/releases)                                                                                        |
-| itlwm.kext                           | v2.3.0-alpha  | [OpenIntelWireless/itlwm](https://github.com/OpenIntelWireless/itlwm/releases)                                                                                        |
-
-[intel ax201 ](https://github.com/OpenIntelWireless/HeliPort/releases)
+| Kext                                 | Version | Author                                                                                                             |
+|:------------------------------------:|:-------:|:------------------------------------------------------------------------------------------------------------------:|
+| XHCI-unsupported.kext                | v0.9.2  | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All/tree/master/XHCI-unsupported.kext)  |
+| AirportBrcmFixup.kext                | v2.1.7  | [acidanthera/AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)                           |
+| Lilu.kext                            | v1.6.7  | [acidanthera/Lilu](https://github.com/acidanthera/Lilu/releases)                                                   |
+| RestrictEvents.kext                  | v1.1.2  | [acidanthera/RestrictEvents](https://github.com/acidanthera/RestrictEvents)                                        |
+| NVMeFix.kext                         | v1.1.1  | [acidanthera/NVMeFix](https://github.com/acidanthera/NVMeFix)                                                      |
+| SMCProcessor.kext                    | v1.3.2  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
+| SMCSuperIO.kext                      | v1.3.2  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |
+| USBInjectAll-ASUS-Z590-A-Gaming.kext | v0.7.8  | [RehabMan/OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All)                                    |
+| VirtualSMC.kext                      | v1.3.2  | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       |                                                                
+| AppleIGC                             | v1.4.0  | [SongXiaoXi/AppleIGC](https://github.com/SongXiaoXi/AppleIGC)                                                      |
+| FeatureUnlock.kext                   | v1.1.5  | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock/releases)                                 |
+| AirpotItlwm.kext                     | v2.3.0-alpha  | [OpenIntelWireless/itlwm](https://github.com/OpenIntelWireless/itlwm/releases)                               |
+| IntelBluetootchFirmware.kext         | v2.3.0  | [OpenIntelWireless/IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)   |
+| IntelBTPatcher.kext                  | v2.6.8  | [acidanthera/BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases)                                   |
+| BlueToolFixup.kext                   | v2.6.8  | [acidanthera/BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases)                                   |
 
 ---
 
