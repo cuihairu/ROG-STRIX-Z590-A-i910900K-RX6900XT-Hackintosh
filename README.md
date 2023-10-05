@@ -95,7 +95,7 @@ disable iGPU : iGPU Multi-Monitor: Disabled
 | VirtualSMC.kext                      | v1.3.2       | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)                                       | 
 | RadeonSensor.kext                    | v0.3.3       | [aluveitie/RadeonSensor](https://github.com/aluveitie/RadeonSensor/releases)                                       |
 | SMCRadeonGPU.kext                    | v0.3.3       | [aluveitie/RadeonSensor](https://github.com/aluveitie/RadeonSensor/releases)                                       |
-| RestrictEvents.kext                  | v1.1.2       | [acidanthera/RestrictEvents](https://github.com/acidanthera/RestrictEvents)                                        |
+| RestrictEvents.kext                  | v1.1.3       | [acidanthera/RestrictEvents](https://github.com/acidanthera/RestrictEvents)                                        |
 | NVMeFix.kext                         | v1.1.1       | [acidanthera/NVMeFix](https://github.com/acidanthera/NVMeFix)                                                      |                                                           
 | AppleIGC                             | v1.4.0       | [SongXiaoXi/AppleIGC](https://github.com/SongXiaoXi/AppleIGC)                                                      |
 | AirpotItlwm.kext                     | v2.3.0-alpha | [OpenIntelWireless/itlwm](https://github.com/OpenIntelWireless/itlwm/releases)                                     |
