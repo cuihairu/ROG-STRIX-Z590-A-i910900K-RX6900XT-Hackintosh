@@ -28,7 +28,7 @@ Install macOS Ventura on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mother
 
 ---
 
-### BIOS   
+### BIOS 
 
 - firmware 
 
@@ -106,19 +106,30 @@ disable iGPU : iGPU Multi-Monitor: Disabled
 | USBToolBox.kext                      | v1.1.1       | [USBToolBox/kext](https://github.com/USBToolBox/kext/releases)                                                     |
 | UTBMap.kext                          | v1.1.1       | [USBToolBox/tool](https://github.com/USBToolBox/tool)                                                              |     
 | WhateverGreen.kext                   | v1.6.6       | [acidanthera/WhateverGreen/](https://github.com/acidanthera/WhateverGreen/releases)                                |
-| AirportBrcmFixup.kext                | v.2.18       | [acidanthera/AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)                           |
+| AirportBrcmFixup.kext                | v2.1.8       | [acidanthera/AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)                           |
 
 
 
 App:
 
 
-| Kext                                 | Version      | Author                                                                                                             |
+| App                                  | Version      | Author                                                                                                             |
 |:------------------------------------:|:------------:|:------------------------------------------------------------------------------------------------------------------:|
 | RadeonGadget                         | v1.3.0       | [ChefKissInc/RadeonSensor](https://github.com/ChefKissInc/RadeonSensor/releases)                                   |
 | HeliPort                             | v.1.4.1      | [OpenIntelWireless/HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases)                               |
 
 ---
+
+### Utils
+
+| Name                                 | Version      | Author                                                                                                             |
+|:------------------------------------:|:------------:|:------------------------------------------------------------------------------------------------------------------:|
+| ioreg                                | v3.0.2       | [khronokernel/IORegistryClone](https://github.com/khronokernel/IORegistryClone/blob/master/ioreg-302.zip)          |
+| Hackintool                           | v4.0.3       | [benbaker76/Hackintool](https://github.com/benbaker76/Hackintool/releases)                                         |
+| OpenCore Configurator                | v2.74.10     | [occ](https://mackie100projects.altervista.org/download-opencore-configurator/)                                    |
+
+---
+
 
 ### Update macOS
 
