@@ -207,6 +207,11 @@
 				<key>enable-metal</key>
 				<data>AQAAAA==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>CFG_LINK_FIXED_MAP</key>
+				<integer>1</integer>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -1499,7 +1504,7 @@
 			<key>GopBurstMode</key>
 			<false/>
 			<key>GopPassThrough</key>
-			<string>Disabled</string>
+			<string>Enabled</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>InitialMode</key>
@@ -1521,7 +1526,7 @@
 			<key>UgaPassThrough</key>
 			<false/>
 			<key>UIScale</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1589,7 +1594,7 @@
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>ResizeGpuBars</key>
-			<integer>0</integer>
+			<integer>10</integer>
 			<key>ResizeUsePciRbIo</key>
 			<false/>
 			<key>ShimRetainProtocol</key>
