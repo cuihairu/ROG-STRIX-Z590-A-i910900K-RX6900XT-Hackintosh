@@ -63,7 +63,7 @@ And remove integrated graphics device properties from config.plist.
 disable iGPU : iGPU Multi-Monitor: Disabled
 ```
 
-rmoeve:
+Remove:
 
 `DeviceProperties->Add`
 
