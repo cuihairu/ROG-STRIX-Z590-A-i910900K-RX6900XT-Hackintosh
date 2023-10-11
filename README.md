@@ -56,6 +56,8 @@ Boot
     - Launch CSM: Disabled
 ```
 
+If you are using intel 11th generation CPU, please disable integrated graphics in BIOS.
+
 ```
 disable iGPU : iGPU Multi-Monitor: Disabled
 ```
