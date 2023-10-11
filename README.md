@@ -56,10 +56,27 @@ Boot
     - Launch CSM: Disabled
 ```
 
-If you are using intel 11th generation CPU, please disable integrated graphics in BIOS.
+If you are using intel 11th generation CPU, please disable integrated graphics in BIOS. 
+And remove integrated graphics device properties from config.plist.
 
 ```
 disable iGPU : iGPU Multi-Monitor: Disabled
+```
+
+rmoeve:
+
+`DeviceProperties->Add`
+
+```xml
+<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+<dict>
+  <key>AAPL,ig-platform-id</key>
+  <data>AwCRPg==</data>
+  <key>device-id</key>
+  <data>mz4AAA==</data>
+  <key>enable-metal</key>
+  <data>AQAAAA==</data>
+</dict>
 ```
 
 ---
