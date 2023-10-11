@@ -66,7 +66,9 @@ disable iGPU : iGPU Multi-Monitor: Disabled
 
 #### Config
 
-11 Gen CPU
+#### 11 Gen CPU
+
+i5-10x00 :
 
 ```xml
 <key>Emulate</key>
@@ -83,6 +85,43 @@ disable iGPU : iGPU Multi-Monitor: Disabled
   <string></string>
 </dict>
 ```
+
+```xml
+<key>Emulate</key>
+<dict>
+   <key>Cpuid1Data</key>
+   <data>6gYJAAAAAAAAAAAAAAAAAA==</data>
+   <key>Cpuid1Mask</key>
+   <data>/////wAAAAAAAAAAAAAAAA==</data>
+   <key>DummyPowerManagement</key>
+   <false/>
+   <key>MaxKernel</key>
+   <string></string>
+   <key>MinKernel</key>
+   <string></string>
+</dict>
+```
+
+i7-10700k:
+
+```xml
+<key>Emulate</key>
+<dict>
+  <key>Cpuid1Data</key>
+  <data>VQYKAAAAAAAAAAAAAAAAAA==</data>
+  <key>Cpuid1Mask</key>
+  <data>/////wAAAAAAAAAAAAAAAA==</data>
+  <key>DummyPowerManagement</key>
+  <false/>
+  <key>MaxKernel</key>
+  <string></string>
+  <key>MinKernel</key>
+  <string></string>
+</dict>
+```
+
+
+
 
 #### Kexts
 
