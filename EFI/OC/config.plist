@@ -916,7 +916,7 @@
 			<key>ProvideCurrentCpuInfo</key>
 			<false/>
 			<key>SetApfsTrimTimeout</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
@@ -991,26 +991,7 @@
 			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
-		<array>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>Windows11</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Windows11:Windows</string>
-				<key>Name</key>
-				<string>Win11</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1B,0x4)/Pci(0x0,0x0)/NVMe(0x1,65-CC-8B-50-68-B7-26-00)/HD(1,GPT,5A674090-1C12-47F6-9433-901880C05850,0x800,0x32000)/\EFI\BOOT\BOOTX64.EFI</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>Security</key>
 		<dict>
 			<key>AllowSetDefault</key>
@@ -1034,7 +1015,7 @@
 			<key>PasswordSalt</key>
 			<data></data>
 			<key>ScanPolicy</key>
-			<integer>3080963</integer>
+			<integer>0</integer>
 			<key>SecureBootModel</key>
 			<string>Disabled</string>
 			<key>Vault</key>
@@ -1359,9 +1340,9 @@
 			<key>JumpstartHotPlug</key>
 			<false/>
 			<key>MinDate</key>
-			<integer>20210508</integer>
+			<integer>0</integer>
 			<key>MinVersion</key>
-			<integer>1677120009000000</integer>
+			<integer>0</integer>
 		</dict>
 		<key>AppleInput</key>
 		<dict>
@@ -1498,13 +1479,13 @@
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
-			<true/>
+			<false/>
 			<key>ForceResolution</key>
 			<false/>
 			<key>GopBurstMode</key>
 			<false/>
 			<key>GopPassThrough</key>
-			<string>Enabled</string>
+			<string>Disabled</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>InitialMode</key>
@@ -1526,7 +1507,7 @@
 			<key>UgaPassThrough</key>
 			<false/>
 			<key>UIScale</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
