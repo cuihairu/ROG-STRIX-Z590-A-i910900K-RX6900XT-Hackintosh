@@ -198,15 +198,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>AwCRPg==</data>
-				<key>device-id</key>
-				<data>mz4AAA==</data>
-				<key>enable-metal</key>
-				<data>AQAAAA==</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>CFG_LINK_FIXED_MAP</key>
@@ -476,16 +467,16 @@
 		</array>
 		<key>Emulate</key>
 		<dict>
-			<key>Cpuid1Data</key>
-			<data></data>
-			<key>Cpuid1Mask</key>
-			<data></data>
-			<key>DummyPowerManagement</key>
-			<false/>
-			<key>MaxKernel</key>
-			<string></string>
-			<key>MinKernel</key>
-			<string></string>
+		  <key>Cpuid1Data</key>
+		  <data>VQYKAAAAAAAAAAAAAAAAAA==</data>
+		  <key>Cpuid1Mask</key>
+		  <data>/////wAAAAAAAAAAAAAAAA==</data>
+		  <key>DummyPowerManagement</key>
+		  <false/>
+		  <key>MaxKernel</key>
+		  <string></string>
+		  <key>MinKernel</key>
+		  <string></string>
 		</dict>
 		<key>Force</key>
 		<array>
@@ -992,24 +983,6 @@
 		</dict>
 		<key>Entries</key>
 		<array>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>Windows11</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Windows11:Windows</string>
-				<key>Name</key>
-				<string>Win11</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1B,0x4)/Pci(0x0,0x0)/NVMe(0x1,65-CC-8B-50-68-B7-26-00)/HD(1,GPT,5A674090-1C12-47F6-9433-901880C05850,0x800,0x32000)/\EFI\BOOT\BOOTX64.EFI</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
 		</array>
 		<key>Security</key>
 		<dict>
