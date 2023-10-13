@@ -79,6 +79,8 @@ Remove:
 </dict>
 ```
 
+If got black screen in Windows when booting from OpenCore also need remove it.
+
 ---
 
 ### EFI 
