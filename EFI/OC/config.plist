@@ -168,8 +168,6 @@
 			<true/>
 			<key>EnableWriteUnprotector</key>
 			<false/>
-			<key>FixupAppleEfiImages</key>
-			<false/>
 			<key>ForceBooterSignature</key>
 			<false/>
 			<key>ForceExitBootServices</key>
@@ -200,15 +198,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>AwCRPg==</data>
-				<key>device-id</key>
-				<data>mz4AAA==</data>
-				<key>enable-metal</key>
-				<data>AQAAAA==</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>CFG_LINK_FIXED_MAP</key>
@@ -255,6 +244,78 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AMFIPass.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AMFIPass</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>IOSkywalkFamily.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IOSkywalkFamily</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>IO80211FamilyLegacy.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IO80211FamilyLegacy</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirPortBrcmNIC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -456,6 +517,24 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>WhateverGreen.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/WhateverGreen</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -475,13 +554,29 @@
 				<key>Strategy</key>
 				<string>Disable</string>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IOSkywalkFamily</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>23.0.0</string>
+				<key>Strategy</key>
+				<string>Exclude</string>
+			</dict>
 		</array>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data></data>
+			<data>VQYKAAAAAAAAAAAAAAAAAA==</data>
 			<key>Cpuid1Mask</key>
-			<data></data>
+			<data>/////wAAAAAAAAAAAAAAAA==</data>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>MaxKernel</key>
@@ -916,9 +1011,9 @@
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
 			<key>ProvideCurrentCpuInfo</key>
-			<false/>
+			<true/>
 			<key>SetApfsTrimTimeout</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
@@ -1017,7 +1112,7 @@
 			<key>PasswordSalt</key>
 			<data></data>
 			<key>ScanPolicy</key>
-			<integer>0</integer>
+			<integer>3080963</integer>
 			<key>SecureBootModel</key>
 			<string>Disabled</string>
 			<key>Vault</key>
@@ -1143,7 +1238,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 npci=0x2000 watchdog=0  -lilubetaall</string>
+				<string>-v keepsyms=1 debug=0x100 npci=0x2000 ipc_control_port_options=0 amfi=0x80 watchdog=0 agdpmod=pikera -lilubetaall</string>
 				<key>csr-active-config</key>
 				<data>7w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1251,7 +1346,7 @@
 			<key>ROM</key>
 			<data>vukhZ9Rw</data>
 			<key>SpoofVendor</key>
-			<false/>
+			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
@@ -1342,9 +1437,9 @@
 			<key>JumpstartHotPlug</key>
 			<false/>
 			<key>MinDate</key>
-			<integer>0</integer>
+			<integer>20210508</integer>
 			<key>MinVersion</key>
-			<integer>0</integer>
+			<integer>1677120009000000</integer>
 		</dict>
 		<key>AppleInput</key>
 		<dict>
@@ -1481,13 +1576,13 @@
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
-			<false/>
+			<true/>
 			<key>ForceResolution</key>
 			<false/>
 			<key>GopBurstMode</key>
 			<false/>
 			<key>GopPassThrough</key>
-			<string>Disabled</string>
+			<string>Enabled</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>InitialMode</key>
@@ -1509,7 +1604,7 @@
 			<key>UgaPassThrough</key>
 			<false/>
 			<key>UIScale</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1577,7 +1672,7 @@
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>ResizeGpuBars</key>
-			<integer>10</integer>
+			<integer>0</integer>
 			<key>ResizeUsePciRbIo</key>
 			<false/>
 			<key>ShimRetainProtocol</key>

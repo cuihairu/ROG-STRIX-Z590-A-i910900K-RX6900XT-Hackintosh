@@ -1,6 +1,6 @@
 ## Rog-STRIX-Z590-A-Gaming-WIFI-II-Hackintosh
 
-Install macOS Ventura on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/motherboards/rog-strix/rog-strix-z590-a-gaming-wifi-ii-model/) Mainboard with 10th Gen Intel CPU.
+Install macOS Sonoma on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/motherboards/rog-strix/rog-strix-z590-a-gaming-wifi-ii-model/) Mainboard with 11th Gen Intel CPU.
 
 ![snaphot](docs/snaphot.png)
 
@@ -8,7 +8,7 @@ Install macOS Ventura on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mother
 
 ### Information 
 
-- macOS: [Ventura](https://www.apple.com/macos/ventura/)
+- macOS: [Sonoma](https://www.apple.com/macos/sonoma/)
 - bootloader: [OpenCore 0.9.7](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.7)
 
 ---
@@ -19,7 +19,7 @@ Install macOS Ventura on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mother
 | Component    | Variant                   | Link                                                                                                                                         |
 |:------------:|:-------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
 | Mainboard    | ORG Z590-A Gaming Wifi II | [www.asus.com](https://rog.asus.com/motherboards/rog-strix/rog-strix-z590-a-gaming-wifi-ii-model/)                                           |
-| Processor    | Intel Core i9 10900K      | [ark.intel.com](https://ark.intel.com/content/www/us/en/ark/products/199332/intel-core-i910900k-processor-20m-cache-up-to-5-30-ghz.html)     |
+| Processor    | Intel Core i9 11900KF      | [ark.intel.com](https://ark.intel.com/content/www/us/en/ark/products/212321/intel-core-i9-11900kf-processor-16m-cache-up-to-5-30-ghz.html)     |
 | DDR4 RAM     | Corsair 128GB             | [www.corsair.com](https://www.corsair.com/ja/zh/%E7%B1%BB%E5%88%AB/%E4%BA%A7%E5%93%81/%E5%86%85%E5%AD%98/VENGEANCE-LPX/p/CMK128GX4M4A2666C16)|
 | NVMe SSD     | Kingston 2TB              | [www.kingston.com](https://www.kingston.com.cn/en/ssd/dc1000b-data-center-boot-ssd)                                                          |
 | Graphics     | AMD Radeon RX 6900xt      | [www.amd.com](https://www.amd.com/en/products/graphics/amd-radeon-rx-6900-xt)                                                                |
