@@ -60,6 +60,8 @@ Boot
 
 if enable VMX need set  EnableVmx to YES in UEFI–Quirks
 
+![enable VMX OC config](docs/enable_vmx_oc_config.png)
+
 ![enable VMX](docs/bios/enable_vmx.BMP)
 
 - enable iGPU 
