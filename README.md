@@ -30,11 +30,11 @@ Install macOS Ventura on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mother
 
 ### BIOS 
 
-- firmware 
+#### firmware 
 
 [Version 2001](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z590-a-gaming-wifi-ii-model/helpdesk_bios/)
 
-- settings
+#### settings
 
 ```
 Advanced
@@ -55,6 +55,45 @@ Boot
   - CSM (Compatibility Support Module)
     - Launch CSM: Disabled
 ```
+
+- enable VMX 
+
+if enable VMX need set  EnableVmx to YES in UEFI–Quirks
+
+![enable VMX](docs/bios/enable_vmx.BMP)
+
+- enable iGPU 
+
+
+- diable Thunderbolt
+
+![Thunderbolt Configuration](docs/bios/thunderbolt_configuration.BMP)
+
+![disable Thunderbolt support](docs/bios/disable_thunderbolt_support.BMP)
+
+
+- enable Above 4G Decoding
+
+![pci subsystem settings](docs/bios/pci_subsystem_settings.BMP)
+
+![enable above 4G decoding](docs/bios/enable_above_4G_decoding.BMP)
+
+
+- enable legacy usb support and xhci hand-off
+
+![usb configuration](docs/bios/usb_configuration.BMP)
+
+![enable legacy usb support](docs/bios/enable_legacy_usb_support.BMP)
+
+![enable xhci hand-off](docs/bios/enable_xhci_hand-off.BMP)
+
+- disable csm
+
+![csm](docs/bios/csm.BMP)
+
+![disable launch csm](docs/bios/disable_launch_csm.BMP)
+
+
 
 If you are using intel 11th generation CPU, please disable integrated graphics in BIOS. 
 And remove integrated graphics device properties from config.plist.
@@ -80,6 +119,8 @@ Remove:
 ```
 
 If got black screen in Windows when booting from OpenCore also need remove it.
+
+
 
 ---
 
