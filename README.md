@@ -132,6 +132,8 @@ If got black screen in Windows when booting from OpenCore also need remove it.
 
 #### 11 Gen CPU
 
+For 11th gen CPUs, you can refer to the `i911900k`branch and the `i7-11700k-RX6600XT` branch.
+
 i5-10x00 :
 
 ```xml
