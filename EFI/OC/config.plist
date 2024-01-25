@@ -209,7 +209,7 @@
 				<key>enable-metal</key>
 				<data>AQAAAA==</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<key>#PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>CFG_LINK_FIXED_MAP</key>
 				<integer>1</integer>
@@ -1539,7 +1539,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 npci=0x2000 watchdog=0  -lilubetaall</string>
+				<string>-v keepsyms=1 debug=0x100 npci=0x2000 watchdog=0  -lilubetaall agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>7w8AAA==</data>
 				<key>prev-lang:kbd</key>
