@@ -104,6 +104,9 @@ If your cpu has core display and the core is macos supported, then you can refer
 
 ![disable Thunderbolt support](docs/bios/disable_thunderbolt_support.BMP)
 
+if you want enable Thunderbolt
+
+![enable Thunderbolt](docs/enable_thunderbolt.png)
 
 - enable Above 4G Decoding
 
