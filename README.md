@@ -192,6 +192,13 @@ If got black screen in Windows when booting from OpenCore also need remove it.
 
 ### EFI 
 
+Mount EFI Partition
+
+![mount EFI](docs/mount_efi.png)
+
+![mount EFI partition](docs/mount_partition.png)
+  
+
 #### Config
 
 ##### Tools
