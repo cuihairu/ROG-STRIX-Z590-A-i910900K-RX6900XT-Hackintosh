@@ -53,6 +53,7 @@ Advanced
     - Discrete Thunderbolt(TM) Support: Disabled
   - PCI Subsystem Settings
     - Above 4G Decoding: Enabled
+    - Re-Size BAR Support: Enabled
   - USB Configuration
     - Legacy USB Support: Enabled
     - XHCI Hand-off: Enabled
@@ -197,7 +198,7 @@ Mount EFI Partition
 ![mount EFI](docs/mount_efi.png)
 
 ![mount EFI partition](docs/mount_partition.png)
-  
+
 
 #### Config
 
