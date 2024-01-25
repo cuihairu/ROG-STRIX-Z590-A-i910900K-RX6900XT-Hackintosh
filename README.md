@@ -173,8 +173,6 @@ For other values of Target, please refer to: 0: disable logging, 3: allow screen
 
 ![ProperTree](docs/opencore-debug-pt-config.png)
 
-![Sublime](docs/)
-
 ```xml
   <key>Misc</key>
   <dict>
@@ -200,6 +198,8 @@ For other values of Target, please refer to: 0: disable logging, 3: allow screen
   </dict>
 </dict>
 ```
+
+![Debug File](docs/opencore-debug-file.png)
 
 - Disable Debug
 
