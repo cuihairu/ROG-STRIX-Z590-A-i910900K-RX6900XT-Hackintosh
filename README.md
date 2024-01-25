@@ -36,12 +36,16 @@ Install macOS Ventura on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mother
 
 #### settings
 
+[Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings)
+
+
 ```
 Advanced
   - CPU Configuration
-    - Intel (VMX) Virtualization Technology: disable
+    - Intel (VMX) Virtualization Technology: Disabled
     - Hyper-Threading: Enabled
   - System Agent (SA)-Configuration
+    - VT-d: Disabled
     - Graphics Configuration
       - iGPU Multi-Monitor: Enabled
       - DVMT Pre-Allocated: 64M
@@ -55,7 +59,7 @@ Advanced
   - PCH Storge Configuration
     - SATA Mode Selection: AHCI
   - Trusted Computing
-    - Security Device Support: Disable
+    - Security Device Support: Disabled
 Boot
   - CSM (Compatibility Support Module)
     - Launch CSM: Disabled
@@ -78,6 +82,14 @@ if enable VMX need set  EnableVmx to YES in UEFI–Quirks
 - enable Hyper-Threading
 
 ![enable Hyper-Threading](docs/bios/enable_hyper-threading.BMP)
+
+- disable VT-D
+
+![disable VT-D](docs/bios/disable_vt-d.BMP)
+
+If you have the need to install a virtual machine, you can turn on VT-D, which needs to be set up at the same time as the OpenCore configuration after turning it on in the bios.
+
+![DisableIoMapper](docs/enable_vt-d.png)
 
 - enable iGPU 
 
