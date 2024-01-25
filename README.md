@@ -96,7 +96,11 @@ If your cpu has core display and the core is macos supported, then you can refer
 
 ![pci subsystem settings](docs/bios/pci_subsystem_settings.BMP)
 
+When enabling Above4G, Resizable BAR Support may become an available on some Z490 and newer motherboards. Please ensure that Booter -> Quirks -> ResizeAppleGpuBars is set to 0 if this is enabled.
+
 ![enable above 4G decoding](docs/bios/enable_above_4G_decoding.BMP)
+
+![ResizeAppleGpuBars](docs/ResizeAppleGpuBars.png)
 
 
 - enable legacy usb support and xhci hand-off
