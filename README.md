@@ -130,6 +130,83 @@ If got black screen in Windows when booting from OpenCore also need remove it.
 
 #### Config
 
+##### Tools
+
+- [ProperTree](https://github.com/corpnewt/ProperTree)
+
+- [OpencoreConfigurator](https://mackie100projects.altervista.org/download-opencore-configurator/)   
+
+- [Sublime](https://www.sublimetext.com/download)
+
+- [OCAuxiliaryTools (support windows)](https://github.com/ic005k/OCAuxiliaryTools)
+
+##### Debug
+
+[OpenCore Install Guide Debug Config Changes](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/debug.html#config-changes)
+
+OC boot core files, there is a debug version, if you run into OC boot install black apple system failed, infinite stuck, infinite reboot error, you can download the debug version, turn on the logging, and then go to the debug txt in the EFI partition to take a closer look at the problems encountered in the installation, as well as the error location and code.
+
+[OpenCore Debug](https://github.com/acidanthera/OpenCorePkg/releases)
+
+![OpenCore Debug](docs/opencore-debug.png)
+
+
+The modifications are as follows
+
+Config-Misc-Debug: debugging options
+
+AppleDebug: when checked, boot.efi debug logs are saved in OpenCore logs. Fill in YES
+
+ApplePanic: save macOS kernel crash logs to OpenCore root partition, use it or not according to your need. Fill in YES/Ture
+
+DisableWatchDog: Generally do not need to check, very few motherboards may need to check. Fill in NO/False
+
+DisplayDelay: display delay, fill in 0.
+
+DisplayLevel: display level, fill in: 2147483714
+
+Target: Target, usually fill in 67.
+
+For other values of Target, please refer to: 0: disable logging, 3: allow screen output logging, 19: allow screen output logging of UEFI variables, 65: generate log file opencore-YYYY-MM-DD-HHMMSS.txt in the root directory of the ESP partition, but do not display logs on the screen.
+
+![OpencoreConfigurator](docs/opencore-debug-oc-config.png)
+
+![ProperTree](docs/opencore-debug-pt-config.png)
+
+![Sublime](docs/)
+
+```xml
+  <key>Misc</key>
+  <dict>
+    <key>Debug</key>
+    <dict>
+      <key>AppleDebug</key>
+      <true/>
+      <key>ApplePanic</key>
+      <true/>
+      <key>DisableWatchDog</key>
+      <true/>
+      <key>DisplayDelay</key>
+      <integer>0</integer>
+      <key>DisplayLevel</key>
+      <integer>2147483714</integer>
+      <key>LogModules</key>
+      <string>*</string>
+      <key>SysReport</key>
+      <false/>
+      <key>Target</key>
+      <integer>67</integer>
+    </dict>
+  </dict>
+</dict>
+```
+
+- Disable Debug
+
+Use a stable version of OpenCore
+
+![OpenCore disable debug](docs/opencore-disable-debug-oc-config.png)
+
 #### 11 Gen CPU
 
 For 11th gen CPUs, you can refer to the [i911900k](https://github.com/cuihairu/ROG-STRIX-Z590-A-i910900K-RX6900XT-Hackintosh/tree/i911900KF)branch and the [i7-11700k-RX6600XT](https://github.com/cuihairu/ROG-STRIX-Z590-A-i910900K-RX6900XT-Hackintosh/tree/i7-11700k-RX6600XT) branch.
