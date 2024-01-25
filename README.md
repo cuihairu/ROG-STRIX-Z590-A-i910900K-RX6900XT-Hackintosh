@@ -39,7 +39,8 @@ Install macOS Ventura on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/mother
 ```
 Advanced
   - CPU Configuration
-    - Intel (VMX) Virtualization Technology: Enabled
+    - Intel (VMX) Virtualization Technology: disable
+    - Hyper-Threading: Enabled
   - System Agent (SA)-Configuration
     - Graphics Configuration
       - iGPU Multi-Monitor: Enabled
@@ -51,12 +52,22 @@ Advanced
   - USB Configuration
     - Legacy USB Support: Enabled
     - XHCI Hand-off: Enabled
+  - PCH Storge Configuration
+    - SATA Mode Selection: AHCI
+  - Trusted Computing
+    - Security Device Support: Disable
 Boot
   - CSM (Compatibility Support Module)
     - Launch CSM: Disabled
+  - Secure Boot
+    - OS Type : Other OS
+    - Secure Boot Mode : Custom
+  - Boot Configuration
+    - Fast Boot: Disabled
+
 ```
 
-- enable VMX 
+- enable/disable VMX 
 
 if enable VMX need set  EnableVmx to YES in UEFI–Quirks
 
@@ -64,8 +75,15 @@ if enable VMX need set  EnableVmx to YES in UEFI–Quirks
 
 ![enable VMX](docs/bios/enable_vmx.BMP)
 
+- enable Hyper-Threading
+
+![enable Hyper-Threading](docs/bios/enable_hyper-threading.BMP)
+
 - enable iGPU 
 
+If your cpu has core display and the core is macos supported, then you can refer to the guide to configure it.
+
+[Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#deviceproperties)
 
 - diable Thunderbolt
 
@@ -89,12 +107,42 @@ if enable VMX need set  EnableVmx to YES in UEFI–Quirks
 
 ![enable xhci hand-off](docs/bios/enable_xhci_hand-off.BMP)
 
-- disable csm
+- select AHCI mode
 
-![csm](docs/bios/csm.BMP)
+![pch storage configuration](docs/bios/pch_storage_configuration.BMP)
 
-![disable launch csm](docs/bios/disable_launch_csm.BMP)
+![sata mode selection](docs/bios/sata_mode_selection.BMP)
 
+- disable CSM
+
+![CSM](docs/bios/csm.BMP)
+
+![disable launch CSM](docs/bios/disable_launch_csm.BMP)
+
+- disable Secure Boot
+
+![secure boot](docs/bios/secure_boot.BMP)
+
+![secure boot mode](docs/bios/secure_boot_mode.BMP)
+
+
+- disable Fast Boot
+
+![boot configuration](docs/bios/boot_configuration.BMP)
+
+![disable fast boot](docs/bios/disable_fast-boot.BMP)
+
+- disable Trusted Computing
+
+If your computer only has macos, or the version of windows installed is less than windows 11 , then it is recommended to turn it off.
+
+![disable trusted computing](docs/bios/disbale_trusted_computing.BMP)
+
+- disable Wi-Fi & Bluetooth
+
+If you have a compatible wireless card and you want to disable the on-board wifi and bluetooth, then you need to configure it as shown.
+
+![disable WiFi & bluetooth](docs/bios/disable_wifi_bt.BMP)
 
 
 If you are using intel 11th generation CPU, please disable integrated graphics in BIOS. 
