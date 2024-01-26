@@ -202,6 +202,23 @@ Mount EFI Partition
 
 ![mount EFI partition](docs/mount_partition.png)
 
+#### Boot from a USB stick
+
+We may encounter errors when modifying the OpenCore configuration that prevent us from entering the system. We recommend booting from a USB stick first, storing the EFI file in the USB stick, and when the configuration is correct, copying the EFI file from the USB stick to the EFI partition.
+
+1. Format the USB memory stick in MS-DOS(FAT32) format, please be careful to save important data.
+
+![FAT32](docs/format-usb-fat32.png)
+
+2. Copy the EFI file to the USB memory stick.
+
+![tree](docs/udisk_efi.png)
+
+3. Plug it into the computer, press F8 when the prompt screen appears when you turn on the computer, and select the USB memory stick.
+
+![select](docs/boot_m.png)
+
+
 
 #### Config
 
