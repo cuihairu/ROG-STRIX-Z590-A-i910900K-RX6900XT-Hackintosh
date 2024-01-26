@@ -215,6 +215,7 @@ We may encounter errors when modifying the OpenCore configuration that prevent u
 ![tree](docs/udisk_efi.png)
 
 3. Plug it into the computer, press F8 when the prompt screen appears when you turn on the computer, and select the USB memory stick.
+If the boot screen stays black, then try to keep pressing the F8 key after pressing the power button until the menu to select boot appears.
 
 ![select](docs/boot_m.png)
 
