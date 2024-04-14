@@ -1,6 +1,6 @@
 ## Rog-STRIX-Z590-A-Gaming-WIFI-II-Hackintosh
 
-Install macOS Ventura on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/motherboards/rog-strix/rog-strix-z590-a-gaming-wifi-ii-model/) Mainboard with 10th Gen Intel CPU.
+Install macOS Sonoma on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/motherboards/rog-strix/rog-strix-z590-a-gaming-wifi-ii-model/) Mainboard with 10th Gen Intel CPU.
 
 ![snaphot](docs/snaphot.png)
 
