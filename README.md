@@ -32,7 +32,7 @@ Install macOS Sonoma on [ORG Z590-A Gaming Wifi II](https://rog.asus.com/motherb
 
 - firmware 
 
-[Version 2001](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z590-a-gaming-wifi-ii-model/helpdesk_bios/)
+[Version 2203](https://rog.asus.com.cn/motherboards/rog-strix/rog-strix-z590-a-gaming-wifi-ii-model/helpdesk_bios/)
 
 - settings
 
